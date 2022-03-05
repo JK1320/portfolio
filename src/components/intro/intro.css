@@ -54,7 +54,15 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #59b256;
+  /* color: #59b256; */
+  color: rgb(20, 169, 214);
   display: flex;
   align-items: center;
+}
+
+.i-img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin: 20%;
 }
