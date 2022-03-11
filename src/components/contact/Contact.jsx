@@ -27,6 +27,7 @@ const Contact = () => {
           (result) => {
             console.log(result.text);
             // setDone(true);
+            // alert("Thanks for the message")
             e.target.reset();
           },
           (error) => {
