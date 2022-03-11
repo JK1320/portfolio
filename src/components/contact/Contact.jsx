@@ -1,9 +1,12 @@
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import "./contact.css";
 import emailjs from 'emailjs-com';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
     const formRef = useRef();
+    const theme = useContext(ThemeContext);
+const darkMode = theme.state.darkMode;
 // const [done, setDone] = useState(false);
 
 
@@ -62,10 +65,10 @@ const Contact = () => {
                         <b>What's your story?</b> Get in touch. Looking for full stack role.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" name="user_name" id="" placeholder="Name" />
-                         <input type="text" name="user_subject" id="" placeholder="Subject" />
-                          <input type="text" name="user_email" id="" placeholder="Email" />
-                          <textarea name="message" id="" cols="" rows="5" placeholder="Message"></textarea>
+                        <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_name" id="" placeholder="Name" />
+                         <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_subject" id="" placeholder="Subject" />
+                          <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_email" id="" placeholder="Email" />
+                          <textarea style={{backgroundColor: darkMode && "#333"}} name="message" id="" cols="" rows="5" placeholder="Message"></textarea>
                           <button>Submit</button>
                           {/* {done && "Thank you..."} */}
                     </form>
