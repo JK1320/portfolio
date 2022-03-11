@@ -4,7 +4,15 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const formRef = useRef();
-const [done, setDone] = useState(false);
+// const [done, setDone] = useState(false);
+
+
+//  const reset = () => {
+//     formRef.current.value = "";
+//   };
+// const handleClick= () => {
+//  formRef.current.reset();
+// }
 
     const handleSubmit = (e) => {
       e.preventDefault();
@@ -18,7 +26,8 @@ const [done, setDone] = useState(false);
         .then(
           (result) => {
             console.log(result.text);
-            setDone(true)
+            // setDone(true);
+            e.target.reset();
           },
           (error) => {
             console.log(error.text);
@@ -57,7 +66,7 @@ const [done, setDone] = useState(false);
                           <input type="text" name="user_email" id="" placeholder="Email" />
                           <textarea name="message" id="" cols="" rows="5" placeholder="Message"></textarea>
                           <button>Submit</button>
-                          {done && "Thank you..."}
+                          {/* {done && "Thank you..."} */}
                     </form>
                 </div>
             </div>
