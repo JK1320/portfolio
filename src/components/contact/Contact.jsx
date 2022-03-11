@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./contact.css";
 
 const Contact = () => {
+    const formRef = useRef();
+
+
+    const handleSubmit = (e) => {
+e.preventDefault();
+    }
+
     return (
         <div className="c">
             <div className="c-bg"></div>
@@ -27,7 +34,7 @@ const Contact = () => {
                     <p className="c-desc">
                         <b>What's your story?</b> Get in touch. Looking for full stack role.
                     </p>
-                    <form>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" name="user_name" id="" placeholder="Name" />
                          <input type="text" name="user_subject" id="" placeholder="Subject" />
                           <input type="text" name="user_email" id="" placeholder="Email" />
