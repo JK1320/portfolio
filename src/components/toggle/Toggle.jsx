@@ -8,15 +8,15 @@ const Toggle = () => {
 const theme = useContext(ThemeContext);
 
 const handleClick = () => {
-  theme.dispatch({type: "TOGGLE"})
+  theme.dispatch({type: "TOGGLE"});
 }
     return (
       <div className="t">
-        <img src={Sun} alt="sun image" className="t-icon" />
-        <img src={Moon} alt="moon image" className="t-icon" />
+        <img src={Sun} alt="sun" className="t-icon" />
+        <img src={Moon} alt="moon" className="t-icon" />
         <div onClick={handleClick} className="t-button" style={{left: theme.state.darkMode ? 0 : 25}}></div>
       </div>
     );
 }
 
-export default Toggle
+export default Toggle;
