@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext, useRef } from 'react';
 import "./contact.css";
 import emailjs from 'emailjs-com';
 import { ThemeContext } from '../../context';
