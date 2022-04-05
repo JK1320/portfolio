@@ -1,6 +1,6 @@
 import "./intro.css";
 import React from 'react';
-// import Image from "../../img/my.jpg"; 
+//import Image from "../../img/my.jpg"; 
 
 function intro() {
     return (
@@ -17,8 +17,10 @@ function intro() {
               </div>
             </div>
             <p className="i-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              beatae placeat velit deserunt nisi, Accusantium, earum.
+               Quick learner of new technologies,
+            successful working in both team and self-directed settings. Looking
+            for a full stack developer role that will allow me to utilise my
+            newly learned skills and has potential for growth.
             </p>
              <svg
           width="75"
