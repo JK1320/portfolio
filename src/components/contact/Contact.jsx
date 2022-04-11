@@ -62,7 +62,7 @@ const darkMode = theme.state.darkMode;
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What's your story?</b> Get in touch. Looking for full stack role.
+                        <b>Get in touch please.</b> I am looking for a full stack role.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" name="user_name" id="" placeholder="Name" />
