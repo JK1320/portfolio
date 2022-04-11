@@ -15,7 +15,7 @@
 
 .a-right {
     flex: 1;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 .a-card.bg {
@@ -65,7 +65,7 @@
 }
 
 .a-award-texts {
-    width: 70%;
+    width: 100%;
 }
 
 .a-award-title {
