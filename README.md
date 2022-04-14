@@ -1,3 +1,15 @@
+ - used EmailJS (email service provider) in the contact component. 
+        * first sign up
+        * add new service and connect email address
+        * then create email template (form input name="" property has same values as user_subject, user_name, user_email, message)
+            example: subject will be: {{user_subject}} 
+                    New message from {{user_name}}:
+
+                    {{message}}
+
+                    Mail address: {{user_email}}
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
