@@ -8,6 +8,10 @@
                     {{message}}
 
                     Mail address: {{user_email}}
+        * install library: npm install emailjs-com
+        * import emailjs from emailjs-com
+        * service id + template id is needed   : integration => user id
+                                               : Email Services => service id 
 
 
 # Getting Started with Create React App
