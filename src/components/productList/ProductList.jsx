@@ -10,7 +10,7 @@ const ProductList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">Create & Inspire</h1>
                 <p className="pl-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quas voluptates dolore distinctio praesentium magnam nobis! Amet repellat accusamus numquam sed. Quod iste impedit velit quasi nam eius perferendis aliquam!
+                    These are the projects I have created for personal learning.
                 </p>
             </div>
             <div className="pl-list">
