@@ -38,10 +38,10 @@ export const projects = [
   {
     id: 5,
     project: "Knowledge Checklist",
-    img: "./projectsImages/KnowledgeChecklist.jpg",
-    link: "https://cyf-knowledge-checklists.herokuapp.com/",
-    github: "https://github.com/aaokunade/Cyf-Knowledge-CheckList",
-    info: "This was the final project completed in a team of four.",
+    img: "./projectsImages/ecommerce.png",
+    link: "",
+    github: "https://github.com/JK1320/react-ecommerce-project",
+    info: "Ecommerce project",
   },
 
   {
