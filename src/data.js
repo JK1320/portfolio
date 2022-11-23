@@ -47,9 +47,9 @@ export const projects = [
   {
     id: 6,
     project: "Knowledge Checklist",
-    img: "./projectsImages/KnowledgeChecklist.jpg",
-    link: "https://cyf-knowledge-checklists.herokuapp.com/",
-    github: "https://github.com/aaokunade/Cyf-Knowledge-CheckList",
-    info: "This was the final project completed in a team of four.",
+    img: "./projectsImages/material-ui.png",
+    link: "",
+    github: "https://github.com/JK1320/material-ui-react-project",
+    info: "Material-ui project.",
   },
 ];
